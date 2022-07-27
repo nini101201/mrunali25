@@ -1,0 +1,178 @@
+wheels, which in turn engaged on an outer toothed ring. The ratios are changed by locking and
+unlocking various of the outer rings with brake bands, or sometimes by linking other elements
+together by clutches. Because all the gears are constantly in mesh, no dog-clutches are needed,
+and thus gear changing is simple and quiet. The epicyclic gearbox was employed by Lanchester
+as early as 1895, but its most significant early use was on the ubiquitous Model T Ford.
+Gear selection on the Model T was effected by use of foot pedals, one to hold low gear, and
+another for reverse. Lanchester, however, developed a more sophisticated system of ‘preselection’
+which was introduced in 1901 and subsequently used on Lanchester and British Daimler cars
+until after the second world war. In the preselector arrangement employed on these cars, a small
+hand lever was used to preselect the ratio which was subsequently engaged by depressing a
+foot-operated button. A fluid coupling was used instead of a mechanical clutch. Vehicles fitted
+with this type of gearbox were pleasant to drive, particularly in heavy traffic, and had many of
+the characteristics of a modern automatic. The disadvantages of the system were that the
+gearbox was heavy, and the friction losses were high, particularly in the fluid clutch. Preselector
+gearboxes were not used for popular mass-produced cars, but they did find widespread application
+on buses, as they eliminated the hard work associated with the frequent gear shifting and clutch
+operation of conventional transmission systems.
+In the 1940s, the epicyclic type of gearbox was developed in the USA to produce a fully
+automatic arrangement similar in principle to most modern designs. It first appeared in general
+use as an Oldsmobile option in 1940. The simple fluid coupling was soon replaced by a fluid
+torque converter, which allowed a limited range of continuously variable speed and torque
+ratios in addition to the fixed gear steps. This is the configuration found on most modern
+automatics.
+Automatic gearboxes rapidly grew in popularity in America, until they became by far more
+common than the ‘standard’ mechanical shift. European manufacturers were slow to follow this
+lead. Engines in European cars were smaller, and higher revving, so transmission losses were
+much more noticeable, and four ratios were really required. Early automatics had a poorer
+performance and higher fuel consumption than corresponding manual gearbox models. The
+high cost of fuel in Europe made the low efficiency important, and the poor performance gave
+automatics an ‘auntie’ image. For many years they were only offered as an option on expensive
+vehicles. More recently, four or even five-speed units suitable for the small European and
+oriental cars have been introduced. These now feature a lock-up facility in top gear, whereby
+the transmission drives directly, and there are no losses associated with slip in the torque
+converter. Torque-converter lock-up was first introduced in 1949 on the Packard Ultramatic
+drive, but its use did not become widespread for some time. The unsporty ‘thirsty’ image of the
+automatic still persists in parts of Europe, and by 1996 still only 2.4% of French and Italian cars
+were automatics. In Germany, the figure had reached 18%, the discrepancy being partly attributable
+to different social attitudes to driving.
+
+Apart from automatic gearboxes there has always been an interest in gearless or stepless
+continuously variable (CVT) transmissions. Large amounts of time and money have been
+developed attempting to produce an efficient practical device. One of the earliest examples was
+Ferdinand Porsche’s ‘mixte’ system for which the original patents were filed in 1897. In this
+method, a petrol engine drove an electrical generator which in turn drove electric motors on the
+wheels. Some early buses, notably those produced by Tilling-Stevens in the U.K., used essentially
+the same arrangement which had the great advantage then that it could be operated with
+minimal training by former drivers of horse-drawn vehicles. Although this system provided a
+smooth stepless transmission that made driving very easy, it was killed off by its poor efficiency.
+Semi-stepless transmissions reappeared briefly in America in the early post-war period in
+the form of fluid torque-converter boxes, and again somewhat later (1955) in the ingenious Van
+Doorne variable diameter pulley and belt system used initially on the Dutch DAF cars. A steel
+belt development of the same basic system has more recently been used for small European
+vehicles. A stepless transmission system is inherently more efficient than a stepped box, as it
+should allow the engine to run at its optimum speed regardless of road speed, but in practice,
+the efficiency of the unit itself has tended to be relatively low. Another disadvantage is that
+whereas problems in a conventional gearbox are usually apparent and progressive, failure of the
+DAF boxes could be inconveniently unexpected and sudden.
+1.9 Steering
+On horsedrawn vehicles, both the front and rear pairs of wheels are usually mounted on simple
+beam axles. The front axle is pivoted about a vertical axis at its centre, and attached to the shafts
+to which the horse is harnessed. Steering is thus effected by the horse being encouraged to turn
+in the required direction by a pull on the reins. On very early motor vehicles, the same pivoting
+axle was initially used, often with some form of tiller for manual steering. This was found to
+produce a dangerously unstable arrangement, however, because the horse in its shafts had
+provided a stabilizing moment. Numerous technical solutions were tried, but the Ackerman
+linkage used on modern vehicles was quickly adopted. This allows the two front wheels to pivot
+about their own separate axes, and for the inner wheel to be turned more than the outer, so that
+the two wheels have a common turn centre. The geometric arrangement of the mechanism
+incorporates a degree of caster which makes the wheels tend to naturally return to a central or
+straight ahead position, thereby making the system directionally stable.
+The tiller soon gave way to the steering wheel, and various mechanisms were used to
+connect the steering linkage to the steering wheel. There was little change to the overall
+mechanism for several decades, and a major advance did not occur until the introduction of
+power steering. Crude forms of power steering had been used with steam-driven vehicles in the
+19th century, but it did not become common on domestic cars until after the Second World War,
+appearing as a standard feature on the 1951 Chrysler Crown Imperial. Four-wheel steering is
+now available on some models, but this is still an unusual arrangement.
+1.10 Suspension
+For many years, the semi-elliptic leaf springs used on carts and carriages were the most common
+method of providing suspension springing. The springs were also used to provide the means of
+
+History
+The oldest classical Greek and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions). Over time, text direction (left to right) became standardized, and word dividers and terminal punctuation became common. The first way to divide sentences into groups was the original paragraphs, similar to an underscore at the beginning of the new group.[2] The Greek parágraphos evolved into the pilcrow (¶), which in English manuscripts in the Middle Ages can be seen inserted inline between sentences. The hedera leaf (e.g. ?) has also been used in the same way.
+
+
+Indented paragraphs demonstrated in the US Constitution
+In ancient manuscripts, another mean divide sentences into paragraphs was a line break (newline) followed by an initial at the beginning of the next paragraph. An initial is an oversized capital letter, sometimes outdented beyond the margin of the text. This style can be seen, for example, in the original Old English manuscript of Beowulf. Outdenting is still used in English typography, though not commonly.[3] Modern English typography usually indicates a new paragraph by indenting the first line. This style can be seen in the (handwritten) United States Constitution from 1787. For additional ornamentation, a hedera leaf or other symbol can be added to the inter-paragraph white space, or put in the indentation space.
+
+A second common modern English style is to use no indenting, but add vertical white space to create "block paragraphs." On a typewriter, a double carriage return produces a blank line for this purpose; professional typesetters (or word processing software) may put in an arbitrary vertical space by adjusting leading. This style is very common in electronic formats, such as on the World Wide Web and email. Wikipedia itself employs this format.[citation needed]
+
+Typographical considerations
+Widows and orphans occur when the first line of a paragraph is the last in a column or page, or when the last line of a paragraph is the first line of a new column or page.
+
+Professionally printed material in English typically does not indent the first paragraph, but indents those that follow. For example, Robert Bringhurst states that we should "Set opening paragraphs flush left."[3] Bringhurst explains as follows:
+
+The function of a paragraph is to mark a pause, setting the paragraph apart from what precedes it. If a paragraph is preceded by a title or subhead, the indent is superfluous and can therefore be omitted.[3]
+
+The Elements of Typographic Style states that "at least one en [space]" should be used to indent paragraphs after the first,[3] noting that that is the "practical minimum".[4] An em space is the most commonly used paragraph indent.[4] Miles Tinker, in his book Legibility of Print, concluded that indenting the first line of paragraphs increases readability by 7%, on average.[5]
+
+When referencing a paragraph, typographic symbol U+00A7 § SECTION SIGN (HTML &#167; · &sect;) may be used: "See § Background".
+
+In computing
+See also: Newline
+In word processing and desktop publishing, a hard return or paragraph break indicates a new paragraph, to be distinguished from the soft return at the end of a line internal to a paragraph. This distinction allows word wrap to automatically re-flow text as it is edited, without losing paragraph breaks. The software may apply vertical white space or indenting at paragraph breaks, depending on the selected style.
+
+How such documents are actually stored depends on the file format. For example, HTML uses the <p> tag as a paragraph container. In plaintext files, there are two common formats. The pre-formatted text will have a newline at the end of every physical line, and two newlines at the end of a paragraph, creating a blank line. An alternative is to only put newlines at the end of each paragraph, and leave word wrapping up to the application that displays or processes the text.
+
+A line break that is inserted manually, and preserved when re-flowing, may still be distinct from a paragraph break, although this is typically not done in prose. HTML's <br /> tag produces a line break without ending the paragraph; the W3C recommends using it only to separate lines of verse (where each "paragraph" is a stanza), or in a street address.[6]
+
+Numbering
+See also: Newline
+Paragraphs are commonly numbered using the decimal system, where (in books) the integral part of the decimal represents the number of the chapter and the fractional parts are arranged in each chapter in order of magnitude. Thus in Whittaker and Watson's 1921 A Course of Modern Analysis, chapter 9 is devoted to Fourier Series; within that chapter §9.6 introduces Riemann's theory, the following section §9.61 treats an associated function, following §9.62 some properties of that function, following §9.621 a related lemma, while §9.63 introduces Riemann's main theorem, and so on. Whittaker and Watson attribute this system of numbering to Giuseppe Peano on their "Contents" page, although this attribution does not seem to be widely credited elsewhere.[7] Gradshteyn and Ryzhik is another book using this scheme since its third edition in 1951.
+
+Section breaks
+Main article: Section (typography)
+Many published books use a device to separate certain paragraphs further when there is a change of scene or time. This extra space, especially when co-occurring at a page or section break, may contain an asterisk, three asterisks, a special stylistic dingbat, or a special symbol known as an asterism.
+
+Style advice
+The crafting of clear, coherent paragraphs is the subject of considerable stylistic debate. The form varies among different types of writing. For example, newspapers, scientific journals, and fictional essays have somewhat different conventions for the placement of paragraph breaks.
+
+A common English usage misconception is that a paragraph has three to five sentences; single-word paragraphs can be seen in some professional writing, and journalists often use single-sentence paragraphs.[1]
+
+English students are sometimes taught that a paragraph should have a topic sentence or "main idea", preferably first, and multiple "supporting" or "detail" sentences that explain or supply evidence. One technique of this type, intended for essay writing, is known as the Schaffer paragraph. This advice differs from stock advice for the construction of paragraphs in Japanese (translated as danraku ??).[8]
+
+See also
+Inverted pyramid (journalism)
+Notes
+ University of North Carolina at Chapel Hill. "Paragraph Development". The Writing Center. University of North Carolina at Chapel Hill. Retrieved 20 June 2018.
+ Edwin Herbert Lewis (1894). The History of the Paragraph. University of Chicago Press. p. 9.
+ Bringhurst, Robert (2005). The Elements of Typographic Style. Vancouver: Hartley and Marks. p. 39. ISBN 0-88179-206-3.
+ Bringhurst, Robert (2005). The Elements of Typographic Style. Vancouver: Hartley and Marks. p. 40. ISBN 0-88179-206-3.
+ Tinker, Miles A. (1963). Legibility of Print. Iowa: Iowa State University Press. p. 127. ISBN 0-8138-2450-8.
+ "
+: The Line Break element". MDN Web Docs. Retrieved 15 March 2018.
+ Kowwalski, E. "Peano paragraphing". blogs.ethz.ch.
+ com), Kazumi Kimura and Masako Kondo (timkondo *AT* nifty . com / Kazumikmr *AT* aol . "Effective writing instruction: From Japanese danraku to English paragraphs". jalt.org. Retrieved 15 March 2018.
+References
+The American Heritage Dictionary of the English Language. 4th ed. New York: Houghton Mifflin, 2000.
+Johnson, Samuel. Lives of the Poets: Addison, Savage, etc.. Project Gutenberg, November 2003. E-Book, #4673.
+Rozakis, Laurie E. Master the AP English Language and Composition Test. Lawrenceville, NJ: Peterson's, 2000. ISBN 0-7645-6184-7 (10). ISBN 978-0-7645-6184-9 (13).
+External links
+ The dictionary definition of paragraph at Wiktionary
+vte
+Typography
+Page	
+Canons of page constructionColumnEven workingMarginPage numberingPaginationPull quoteRecto and verso
+Paragraph	
+AlignmentLeadingRiverRunaroundSentence spacingWidows and orphans
+Character	
+Typeface anatomy	
+CounterDiacriticsDingbatGlyphInitialKerningLetter-spacingLigatureRotationSubscript and superscriptSwashText figuresTittle
+Capitalization	
+All capsCamel caseLetter caseSmall caps
+Visual distinction	
+ItalicsObliqueBoldColor printingUnderlineBlackboard boldBlackletter
+Vertical aspects	
+AscenderBaselineCap heightDescenderMedianOvershootx-height
+Classifications	
+Roman type	
+Serif (Antiqua, Didone, slab serif)Sans-serif
+Blackletter type	
+FrakturRotundaSchwabacher
+Gaelic type	
+InsularUncial
+Specialist	
+Record typeOutline typefaceDisplay typeface (script, fat face, reverse-contrast)
+Punctuation	
+DashesHanging punctuationHyphen-minusHyphenationPrime markQuotation mark
+Typesetting	
+Etaoin shrdluFont computermonospacedFont catalogFor position onlyLetterpressLorem ipsumMicroprintingMicrotypographyMovable typePangramPhototypesettingPunchcuttingType colorType designTypeface list
+Typographic units	
+AgateCiceroEmEnFigure spaceMeasureParen spacePicaPoint traditional point-size namesProposed metric unitsThin spaceTwip
+Digital typography	
+Character encodingHintingRasterizationTypographic featuresWeb typographyBézier curves
+Related articles	
+CalligraphyIntentionally blank pageStyle guideType foundryHistoryIntellectual property protection of typefacesTechnical lettering
+Related tables	
+Punctuation and other typographic symbols

@@ -1,0 +1,699 @@
+Unix - It is an operating system.
+GUI is not available. 
+CLI --> command line interface
+
+Why unix?
+To access server side applications and files.
+Multiple users can login at the same time.
+Provides security.
+Multitasking is possible.
+Time of operation is reduced.
+to access log files
+
+Linux, redhat, fedora, ubantu --> GUI + CLI --> Subsets of UNIX 
+
+windows 10 --> used in company
+server --> UNIX Operating system
+windows 10 --> UNIX --> putty terminal
+
+server --> windows 10
+windows 10 --> windows 10 --> remote desktop connection
+
+
+Windows where commands are written and executed --> terminal window
+
+folders --> directories
+files --> files
+==================================================================
+
+Virtual terminal --> https://cocalc.com/app
+
+1) create an account using personal gmail address
+2) create a new project
+3) add files and folders in the created project (upload button/drag and drop)
+4) click on dropdown near new button and select terminal
+
+=================================================================
+
+commands :-
+
+~$
+~ --> default location --> home directory
+
+ls --> listing of files and directories in current working directory
+
+If any data has .extension that is a file
+Data which do not have any extension those are directories
+
+All UNIX commands are case sensitive.
+~$ Ls
+bash: Ls: command not found
+~$ lS
+bash: lS: command not found
+~$ LS
+bash: LS: command not found
+
+ls -l --> for long listing of data
+
+drwxr-xr-x  8 user user        8 Aug 18 14:17  b  --> directory
+-rw-r--r--  1 user user        0 Aug 19 14:35  b.txt --> file
+
+d --> directory
+- --> file
+l --> link
+b --> binary files
+
+d|rwxr-xr-x
+
+r --> read/View
+w --> write/edit
+x --> execute/copy/paste/delete/compile
+
+rwx           r-x           r-x  
+User/owner   group         others
+
+ls -a --> to list down hidden files and directories along with visible 
+data in current working directory.
+
+ls -r --> to reverse the order of listing
+
+To clean the terminal window:
+1) ctrl+l --> historical data is available (can be viewed using scroll bar)
+2) clear --> historical data is not available
+
+=========================================================================
+
+pwd --> present working directory
+
+~$ pwd
+/home/user
+
+=================================================================
+
+cd --> change directory
+
+syntax: cd directoryname --> to move inside any directory
+
+default content --> to switch to main frame from any location
+parent frame --> to move to immediate parent
+
+~/12/16$ 
+16 --> immediate parent --> 12 --> cd ..
+16 --> default content --> ~ (Home) --> cd
+
+~/12$ cd 16
+~/12/16$ ls
+~/12/16$ cd ..
+~/12$ cd 16
+~/12/16$ cd
+
+=====================================================================
+
+new directory
+newdirectory
+
+whenever the file nama and directoryname has space in it include the name in '' while passing in any command.
+
+=================================================================
+
+mkdir --> make directory
+
+syntax: mkdir directoryname --> to create a new directory
+
+mkdir -p directoryname/childdirectoryname --> to create parent along with child in one step
+
+e.g.
+~$ mkdir A/1
+mkdir: cannot create directory ‘A/1’: No such file or directory
+~$ mkdir -p A/1
+
+A --> 1 2 3 4 --> a b c d
+A -->1 --> 2 --> 3
+
+mkdir -p A/{2,3,4}
+
+mkdir -p A/{1,2,3,4}/{a,b,c,d}
+
+c --> 1,2,3,4 --> A b c
+
+mkdir -p c/{1,2,3,4}/{A,b,c}
+
+--> to create subdirectories separate them with '/'
+mkdir -p directory1/directory2/directory3
+
+--> to create multiple subdirectories at same level include the directory names in {} separated by ,.
+
+--> to print progress messages --> verbose
+mkdir -v directoryname 
+
+e.g.:
+~$ mkdir -pv c/{1,2,3,4}/{A,b,c}
+mkdir: created directory 'c'
+mkdir: created directory 'c/1'
+mkdir: created directory 'c/1/A'
+mkdir: created directory 'c/1/b'
+mkdir: created directory 'c/1/c'
+
+================================================================================
+2021
+12 months
+30 days
+
+mkdir -p 2021/{Jan,Feb,Mar,Apr}/{1,2,3,4,5,6,7}
+mkdir -p 2021/{Jan,Feb,Mar,Apr}/{1..30} --> to provide in range
+
+1+12+12*30 = 373
+
+===============================================================================
+
+A
+1,2,3,4
+1&4 --> a b c d
+
+=================================================================
+
+rmdir --> to remove directory
+
+syntax: rmdir directoryname
+
+precondition : The directory to be removed must be empty
+
+e.g.:
+~$ rmdir A
+rmdir: failed to remove 'A': Directory not empty
+~$ rmdir -v d
+rmdir: removing directory, 'd'
+
+===========================================================
+rm -r --> to remove directory having data
+
+synatx: rm -r directoryname
+
+e.g.
+1)~$ cd a
+~/a$ ls
+1  2  3
+~/a$ cd
+~$ rm -r a/{1,2}
+~$ cd a
+~/a$ ls
+3
+
+2)~$ rm -rv A
+removed directory 'A/3/a'
+removed directory 'A/3/b'
+removed directory 'A/3/c'
+removed directory 'A/3/d'
+removed directory 'A/3'
+removed directory 'A/4/d'
+removed directory 'A/4/c'
+removed directory 'A/4/b'
+removed directory 'A/4/a'
+removed directory 'A/4'
+
+mkdir rmdir pwd cd --> used only for directories
+
+rm --> to remove files
+
+synatx: rm filename.extension
+
+rm -i filename --> to get the confirmation message before removing file (provide Y/N as your inputs)
+
+rm -i file1 file2 --> to remove more than one file at the same time
+
+e.g: ~$ rm -i AprilC.txt catfile.txt
+rm: remove regular file 'AprilC.txt'? Y
+rm: remove regular file 'catfile.txt'? N
+
+=========================================================================
+
+Use arrow up and arrow down keys to access commands used in path
+
+=========================================================================
+
+mkdir -pv A/1/2/3/4/5/6/7/8/9
+
+cd A/1/2/3/4/5/6/7
+
+mkdir -p A/{1,2,3,4,5,6,7,8,9}
+mkdir -p A/{1..9}
+
+cd A/7
+
+~$ mkdir -pv A/{1..10}
+mkdir: created directory 'A'
+mkdir: created directory 'A/1'
+mkdir: created directory 'A/2'
+mkdir: created directory 'A/3'
+mkdir: created directory 'A/4'
+mkdir: created directory 'A/5'
+mkdir: created directory 'A/6'
+mkdir: created directory 'A/7'
+mkdir: created directory 'A/8'
+mkdir: created directory 'A/9'
+mkdir: created directory 'A/10'
+~$ cd A
+~/A$ ls
+1  10  2  3  4  5  6  7  8  9
+~/A$ cd
+~$ mkdir -pv C/1/2/3/4/5/6/7/8/9/0
+mkdir: created directory 'C'
+mkdir: created directory 'C/1'
+mkdir: created directory 'C/1/2'
+mkdir: created directory 'C/1/2/3'
+mkdir: created directory 'C/1/2/3/4'
+mkdir: created directory 'C/1/2/3/4/5'
+mkdir: created directory 'C/1/2/3/4/5/6'
+mkdir: created directory 'C/1/2/3/4/5/6/7'
+mkdir: created directory 'C/1/2/3/4/5/6/7/8'
+mkdir: created directory 'C/1/2/3/4/5/6/7/8/9'
+mkdir: created directory 'C/1/2/3/4/5/6/7/8/9/0'
+~$ cd C
+~/C$ ls
+1
+~/C$ cd 1
+~/C/1$ ls
+2
+~/C/1$ cd
+~$ cd C/1/2/3/4/5/6/7/8
+~/C/1/2/3/4/5/6/7/8$ cd ..
+~/C/1/2/3/4/5/6/7$ cd
+
+========================================================================
+
+chmod : change mode
+
+-rw-r--r--  1 user user       25 Aug  7 14:07  mv.txt
+
+rw-              r--                r--
+user(u)         group(g)           others(o)
+
+r --> read
+w --> write
+x --> execute
+
+1) assignment operator
+
++ --> to add a new access
+- --> to remove access
+= --> to assign access
+
+user(u)
+rw- --> initially
+rwx --> change
+
+chmod u+x mv.txt
+
+rwx --> initially
+r-x --> chnage
+
+chmod u-w mv.txt
+
+r-x --> initially
+-wx --> now
+
+chmod u-r+w mv.txt
+
+group(g)
+r-- --> initially
+rwx --> chnage
+
+chmod g+wx mv.txt
+
+rwx                r-- 
+group(g)           others(o)
+
+chmod o=g mv.txt
+
+~$ ls -l mv.txt
+-rw-r--r-- 1 user user 25 Aug  7 14:07 mv.txt
+~$ chmod u+x mv.txt
+~$ ls -l mv.txt
+-rwxr--r-- 1 user user 25 Aug  7 14:07 mv.txt
+~$ chmod u-w mv.txt
+~$ ls -l mv.txt
+-r-xr--r-- 1 user user 25 Aug  7 14:07 mv.txt
+~$ chmod u-r+w mv.txt
+~$ ls -l mv.txt
+--wxr--r-- 1 user user 25 Aug  7 14:07 mv.txt
+~$ chmod g+wx mv.txt
+~$ ls -l mv.txt
+--wxrwxr-- 1 user user 25 Aug  7 14:07 mv.txt
+~$ chmod o=g mv.txt
+~$ ls -l mv.txt
+--wxrwxrwx 1 user user 25 Aug  7 14:07 mv.txt
+
+-wx     rwx            rwx
+
+chmod g=u mv.txt
+
+~$ chmod g=u mv.txt
+~$ ls -l mv.txt
+--wx-wxrwx 1 user user 25 Aug  7 14:07 mv.txt
+
+2) using numeric way:
+
+--wx-wxrwx 1 user user 25 Aug  7 14:07 mv.txt
+
+-wx     -wx      rwx
+
+-wx|-wx|rwx --> initially
+--x|r--|rwx --> change
+001|100|111 --> binary number
+
+421 --> standard number used for binary to deciman conversion
+001 --> 4*0+2*0+1*1 = 1 --> user
+100 --> 4*1+2*0+1*0 = 4 --> group
+111 --> 4*1+2*1+1*1 = 7 --> others
+
+chmod 147 mv.txt
+
+--x|r--|rwx --> initially
+-wx|rwx|r-- --> now
+011|111|100 --> binary
+
+421
+011 =3
+111 =7
+100 =4
+
+chmod 374 mv.txt
+
+rwxrwxrwx
+
+================================================
+
+drwx------  2 user user        5 Aug 20 14:44  folder
+
+rwx|---|--- --> now
+-wx|rw-|rwx --> chnage
+011|110|111
+3|6|7
+
+chmod 367 folder
+
+chmod u+r folder
+
+===============================================
+
+wc --> word count
+
+~$ wc 'text file new.txt'
+  177 | 2455 | 16584 |text file new.txt
+no. of lines|no. of words| no. of characters| filename
+
+================================================
+
+cat --> 1)to display the complete data of file --> syntax: cat filename
+2) to display the data of two or more files at the same time --> cat file1 file2 
+--> order of data display is file1 followed by file2
+3) to concatenate the data of two or more files and add it in new file
+--> cat file1 file2 >newfilename
+
+================================================
+
+vi --> 1) to edit an existing file
+2) to create a new file and add data in it
+
+steps to be followed:
+1) vi filename
+2) press "i" to move to insert mode
+3) add/edit data
+4) press "esc"
+5) press shift+;
+6) press "w' and "q"
+7) press enter to move back to terminal
+=================================================
+touch --> to create a new file
+
+syntax: touch filename
+
+=================================================
+head --> to display the first 10 lines of the document
+
+head filename --> by default it will show first 10 lines of the document
+head -n filename --> to display specific number of lines from start of the document
+(replace n with the desired number)
+
+=================================================
+tail --> to dispaly the last 10 lines of the document
+
+tail filename --> by default it will show last 10 lines of the document
+tail -n filename --> to display specific number of lines from end of the document
+(replace n with the desired number)
+==================================================
+less --> to display the data of document page by page
+
+syntax: less filename
+
+steps for page flow:
+1) press "space bar" to move to next page
+2) press "b" to move to previous page
+3) press "g" to move to first page from any location
+4) press "shift+g" to move to last page from any location
+5) press "q" to move back to terminal
+===================================================
+more --> to display the data of document page by page along with percentage
+
+syntax: more filename
+
+steps for page flow:
+1) press "space bar" to move to next page
+2) press "b" to move to previous page
+3) press "q" to move back to terminal
+====================================================
+grep --> ctrl+f --> global regular expression pattern
+
+syntax: grep "pattern" filename --> to search particular pattern in the file
+grep -n "pattern" filename --> it will show the number of lines having pattern
+
+grep -v "pattern" filename --> to display the lines which do not have pattern
+
+grep -vn "pattern" filename -->to display the lines which do not have pattern along with line number
+
+======================================================
+logs  --> date timestamp process 
+
+successlog failurelog errorlog dailylogs latestlogs monitlogs
+
+cd /var/log
+
+=======================================================
+
+kill --> to kill the process forcefully
+
+syntax: kill PID
+
+PID --> process ID
+
+To get process ID:
+top --> works same as task manager
+
+press "q" to move back to terminal
+
+if process name to be killed is already known:
+
+pidof processname : pidof tini
+
+=========================================================
+
+mv --> 1) to rename files: syntax: mv oldfilename newfilename
+2) to rename directories: mv olddirectoryname newdirectoryname
+3) to move files from one location to another
+syntax: mv filename directoryname
+e.g. mv file.txt AB 
+mv sourcepath destinationpath
+e.g. ~$ mv AB/file.txt 3
+
+drawback: will not be able to move whole directory from one location to another
+========================================================
+
+cp --> to copy the data of files
+
+syntax: cp file1 file2 --> will copy the whole data of file1 inside file2
+
+~$ cat b.txt
+Creating a new file using vi command
+
+~$ cat catnew.txt
+created file using pipes in unix
+editing existing file using vi command
+Rajat       ESE        9.1
+Rishabh     CSE        8.4
+Prakhar     CSE        9.7
+Aman        ME         7.4
+Rajat       ESE        9.1
+Rishabh     CSE        8.4
+Prakhar     CSE        9.7
+Naman       CSE        9.4
+~$ cp b.txt catnew.txt
+~$ cat b.txt
+Creating a new file using vi command
+
+~$ cat catnew.txt
+Creating a new file using vi command
+
+~$ 
+
+==============================================
+
+compress --> to compress the files
+
+synatx: compress filename
+uncompress filename --> to uncompress the file
+
+~$ compress -v 'text file new.txt'
+text file new.txt:  -- replaced with text file new.txt.Z Compression: 45.74%
+~$ uncompress -v 'text file new.txt'
+text file new.txt.Z:     45.7% -- replaced with text file new.txt
+
+===============================================
+
+pipes in UNIX: 
+
+command1|command2|command3|command4
+
+filename:
+Conclusion:
+1)
+2)
+3)
+result:
+1)
+2)
+Additional information:
+1)
+2)
+3)
+4)
+5)
+6)
+
+filename:
+Conclusion:
+1)
+2)
+3)
+result:
+1)
+2)
+
+head -8 filename|tail -3 
+
+~$ cat pipes.txt
+filename:
+Conclusion:
+1)
+2)
+3)
+result:
+1)
+2)
+Additional information:
+1)
+2)
+3)
+4)
+5)
+6)~$ head -8 pipes.txt
+filename:
+Conclusion:
+1)
+2)
+3)
+result:
+1)
+2)
+~$ tail -3 pipes.txt
+4)
+5)
+6)~$ head -8 pipes.txt|tail -3
+result:
+1)
+2)
+
+=============================================
+file1.txt "abc" first 7 lines
+
+grep "abc" file1.txt|head -7 
+
+~$ grep -n "are" 'text file new.txt'|head -7
+1:wheels, which in turn engaged on an outer toothed ring. The ratios are changed by locking and
+3:together by clutches. Because all the gears are constantly in mesh, no dog-clutches are needed,
+19:automatic arrangement similar in principle to most modern designs. It first appeared in general
+33:the transmission drives directly, and there are no losses associated with slip in the torque
+49:Semi-stepless transmissions reappeared briefly in America in the early post-war period in
+56:whereas problems in a conventional gearbox are usually apparent and progressive, failure of the
+59:On horsedrawn vehicles, both the front and rear pairs of wheels are usually mounted on simple
+
+
+=============================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
